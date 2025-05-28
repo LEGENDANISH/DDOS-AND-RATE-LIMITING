@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 otpstore = {} //store otp
-const SECRET_KEY= "0x4AAAAAABe44gshWw-iGz3v_0FSqKpuxjs";
+const SECRET_KEY= "";
 
 
 const limiter = rateLimit({
