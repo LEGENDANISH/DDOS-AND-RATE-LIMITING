@@ -45,7 +45,7 @@ return(
     />
 
     <Turnstile
-    siteKey='0x4AAAAAABe44sqQp0igJonQ'
+    siteKey=''
     onSuccess={(token)=>setToken(token)}
     />
     <button onClick={handleSubmit} className='update-button'>
